@@ -9,6 +9,7 @@ public class HelloController {
 
     @RequestMapping("/111.jpg")
     public String hello(){
+        System.out.println(666);
         return "aaa";
     }
 }
